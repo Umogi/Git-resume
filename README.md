@@ -46,4 +46,4 @@ No server is required to view the website locally, but you can deploy it using p
 Feel free to fork this repository and make improvements. Open issues or pull requests if you'd like to contribute to the development of this interactive showcase.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
