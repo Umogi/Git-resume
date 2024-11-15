@@ -142,11 +142,18 @@ body {
 }
 
 @media (max-width: 1000px) {
+    .window-rounded{
+        --init-size: min(min(500px, 60vw), 60vh);
+        width: var(--init-size);
+        height: var(--init-size);
+    }
+
     .frame .f1 {
         left: 0;
+        bottom: -150px;
         position: absolute;
         margin: auto;
-        --init-size: min(min(220px, 33vw), 33vh);
+        --init-size: min(min(250px, 50vw), 50vh);
         width: var(--init-size);
         height: var(--init-size);
         transform: translate(0, -350px);
@@ -154,9 +161,10 @@ body {
 
     .frame .f2 {
         left: 0;
+        bottom: 150px;
         position: absolute;
         margin: auto;
-        --init-size: min(min(220px, 33vw), 33vh);
+        --init-size: min(min(250px, 50vw), 50vh);
         width: var(--init-size);
         height: var(--init-size);
         transform: translate(0, 350px);
