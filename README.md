@@ -36,14 +36,11 @@ To run this project locally:
 
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/Umogi/git-resume.git
    ```
 2. Open `index.html` in your browser.
 
 No server is required to view the website locally, but you can deploy it using platforms like GitHub Pages or Netlify for online access. 
-
-## Contributing
-Feel free to fork this repository and make improvements. Open issues or pull requests if you'd like to contribute to the development of this interactive showcase.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
