@@ -31,7 +31,7 @@ body {
 }
 
 .frame .f1{
-    --init-size: min(min(300px, 33vw), 33vh);
+    --init-size: min(min(350px, 50vw), 50vh);
     width: var(--init-size);
     height: var(--init-size);
     left: 60%;
@@ -44,7 +44,7 @@ body {
 }
 
 .frame .f2{
-    --init-size: min(min(300px, 33vw), 33vh);
+    --init-size: min(min(350px, 50vw), 50vh);
     width: var(--init-size);
     height: var(--init-size);
     left: -60%;
