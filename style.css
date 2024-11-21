@@ -141,33 +141,38 @@ body {
     0px 0px 3px 4px rgba(108, 115, 129, 0.2); 
 }
 
-@media (max-width: 1000px) {
+@media (orientation: portrait) {
     .window-rounded{
-        --init-size: min(min(500px, 60vw), 60vh);
+        --init-size: min(min(500px, 60vw), 30vh);
         width: var(--init-size);
         height: var(--init-size);
     }
 
     .frame .f1 {
         left: 0;
-        bottom: -150px;
+        bottom: 0;
         position: absolute;
-        margin: auto;
-        --init-size: min(min(250px, 50vw), 50vh);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40%;
+        margin-bottom: auto;
+        --init-size: min(min(350px, 50vw), 50vh);
         width: var(--init-size);
         height: var(--init-size);
-        transform: translate(0, -350px);
+        transform: translate(0, -70%);
     }
 
     .frame .f2 {
         left: 0;
-        bottom: 150px;
+        bottom: 0;
         position: absolute;
-        margin: auto;
-        --init-size: min(min(250px, 50vw), 50vh);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40%;
+        --init-size: min(min(350px, 50vw), 50vh);
         width: var(--init-size);
         height: var(--init-size);
-        transform: translate(0, 350px);
+        transform: translate(0, 70%);
     }
 
     .f1 .link{transform: translateX(100%);}
