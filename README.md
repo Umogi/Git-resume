@@ -40,7 +40,5 @@ To run this project locally:
    ```
 2. Open `index.html` in your browser.
 
-No server is required to view the website locally, but you can deploy it using platforms like GitHub Pages or Netlify for online access. 
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
